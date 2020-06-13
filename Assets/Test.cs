@@ -13,7 +13,7 @@ public class Boss
 	public void Magic()
 	{
 		//条件分岐
-		if (this.mp > 5)
+		if (this.mp >= 5)
 		{
 			/*MPが足りてる場合
 			 mpを5減らし、コンソールに「魔法攻撃をした。残りMPは○○。」と表示*/
@@ -59,7 +59,7 @@ public class Test : MonoBehaviour
 		}
 
 		//for文を使い、配列の各要素の値を逆順に表示
-		for (int b = 4; b < array.Length; b--)
+		for (int b = 4; b > 0; b--)
 		{
 			Debug.Log(array[b]);
 		}
