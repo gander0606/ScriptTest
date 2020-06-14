@@ -53,15 +53,15 @@ public class Test : MonoBehaviour
 
 
 		// for文を使い、配列の各要素の値を順番に表示
-		for (int a = 0; a < array.Length; a++)
+		for (int i = 0; i < array.Length; i++)
 		{
-			Debug.Log(array[a]);
+			Debug.Log(array[i]);
 		}
 
 		//for文を使い、配列の各要素の値を逆順に表示
-		for (int b = 4; b > 0; b--)
+		for (int i = array.Length - 1; i >= 0; i--)
 		{
-			Debug.Log(array[b]);
+			Debug.Log(array[i]);
 		}
 
 
